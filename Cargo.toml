@@ -10,6 +10,13 @@ license = "MIT"
 members = ["examples/*"]
 
 [dependencies]
-iced_core = { git = "https://github.com/derezzedex/iced", rev = "69e8cc2d33eae623cd900150627d1ad82cef678d" }
-iced_widget = { git = "https://github.com/derezzedex/iced", rev = "69e8cc2d33eae623cd900150627d1ad82cef678d", features = ["wgpu"]}
+iced_core = { version = "0.14.0-dev" }
+iced_wgpu = { version = "0.14.0-dev" }
+iced_widget = { version = "0.14.0-dev", features = ["wgpu"] }
 bytemuck = { version = "1.0", features = ["derive"] }
+
+[patch.crates-io]
+iced = { git = "https://github.com/B0ney/iced", branch = "paragon" }
+iced_wgpu = { git = "https://github.com/B0ney/iced", branch = "paragon" }
+iced_core = { git = "https://github.com/B0ney/iced", branch = "paragon" }
+iced_widget = { git = "https://github.com/B0ney/iced", branch = "paragon" }

@@ -1,9 +1,9 @@
 use iced_core::Rectangle;
 use iced_core::Size;
 use iced_core::mouse;
-use iced_widget::renderer::wgpu::wgpu;
-use iced_widget::renderer::wgpu::wgpu::util::DeviceExt;
+use iced_wgpu::wgpu;
 use iced_widget::shader;
+use wgpu::util::DeviceExt;
 
 #[derive(Debug, Clone, Copy)]
 pub struct Shader {
