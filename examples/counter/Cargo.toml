@@ -4,6 +4,10 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-iced = { version = "0.14.0-dev", default-features = false, features = ["image"] }
 iced_blur = { path = "../../" }
 image = "0.25"
+
+[dependencies.iced]
+version = "0.14.0-dev"
+default-features = false
+features = ["image", "thread-pool"]

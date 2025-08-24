@@ -864,6 +864,7 @@ dependencies = [
  "futures-core",
  "futures-task",
  "futures-util",
+ "num_cpus",
 ]
 
 [[package]]
@@ -1096,7 +1097,7 @@ checksum = "dfa686283ad6dd069f105e5ab091b04c62850d3e4cf5d67debad1933f55023df"
 [[package]]
 name = "iced"
 version = "0.14.0-dev"
-source = "git+https://github.com/B0ney/iced?branch=paragon#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
+source = "git+https://github.com/B0ney/iced?branch=iced_blur_test#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
 dependencies = [
  "iced_core",
  "iced_debug",
@@ -1122,7 +1123,7 @@ dependencies = [
 [[package]]
 name = "iced_core"
 version = "0.14.0-dev"
-source = "git+https://github.com/B0ney/iced?branch=paragon#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
+source = "git+https://github.com/B0ney/iced?branch=iced_blur_test#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
 dependencies = [
  "bitflags 2.9.3",
  "bytes",
@@ -1139,7 +1140,7 @@ dependencies = [
 [[package]]
 name = "iced_debug"
 version = "0.14.0-dev"
-source = "git+https://github.com/B0ney/iced?branch=paragon#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
+source = "git+https://github.com/B0ney/iced?branch=iced_blur_test#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
 dependencies = [
  "iced_core",
  "iced_futures",
@@ -1149,7 +1150,7 @@ dependencies = [
 [[package]]
 name = "iced_futures"
 version = "0.14.0-dev"
-source = "git+https://github.com/B0ney/iced?branch=paragon#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
+source = "git+https://github.com/B0ney/iced?branch=iced_blur_test#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
 dependencies = [
  "futures",
  "iced_core",
@@ -1162,7 +1163,7 @@ dependencies = [
 [[package]]
 name = "iced_graphics"
 version = "0.14.0-dev"
-source = "git+https://github.com/B0ney/iced?branch=paragon#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
+source = "git+https://github.com/B0ney/iced?branch=iced_blur_test#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
 dependencies = [
  "bitflags 2.9.3",
  "bytemuck",
@@ -1182,7 +1183,7 @@ dependencies = [
 [[package]]
 name = "iced_program"
 version = "0.14.0-dev"
-source = "git+https://github.com/B0ney/iced?branch=paragon#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
+source = "git+https://github.com/B0ney/iced?branch=iced_blur_test#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
 dependencies = [
  "iced_graphics",
  "iced_runtime",
@@ -1191,7 +1192,7 @@ dependencies = [
 [[package]]
 name = "iced_renderer"
 version = "0.14.0-dev"
-source = "git+https://github.com/B0ney/iced?branch=paragon#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
+source = "git+https://github.com/B0ney/iced?branch=iced_blur_test#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
 dependencies = [
  "iced_graphics",
  "iced_tiny_skia",
@@ -1203,7 +1204,7 @@ dependencies = [
 [[package]]
 name = "iced_runtime"
 version = "0.14.0-dev"
-source = "git+https://github.com/B0ney/iced?branch=paragon#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
+source = "git+https://github.com/B0ney/iced?branch=iced_blur_test#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
 dependencies = [
  "bytes",
  "iced_core",
@@ -1217,7 +1218,7 @@ dependencies = [
 [[package]]
 name = "iced_tiny_skia"
 version = "0.14.0-dev"
-source = "git+https://github.com/B0ney/iced?branch=paragon#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
+source = "git+https://github.com/B0ney/iced?branch=iced_blur_test#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
 dependencies = [
  "bytemuck",
  "cosmic-text",
@@ -1233,7 +1234,7 @@ dependencies = [
 [[package]]
 name = "iced_wgpu"
 version = "0.14.0-dev"
-source = "git+https://github.com/B0ney/iced?branch=paragon#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
+source = "git+https://github.com/B0ney/iced?branch=iced_blur_test#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
 dependencies = [
  "bitflags 2.9.3",
  "bytemuck",
@@ -1252,7 +1253,7 @@ dependencies = [
 [[package]]
 name = "iced_widget"
 version = "0.14.0-dev"
-source = "git+https://github.com/B0ney/iced?branch=paragon#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
+source = "git+https://github.com/B0ney/iced?branch=iced_blur_test#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
 dependencies = [
  "iced_renderer",
  "iced_runtime",
@@ -1266,7 +1267,7 @@ dependencies = [
 [[package]]
 name = "iced_winit"
 version = "0.14.0-dev"
-source = "git+https://github.com/B0ney/iced?branch=paragon#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
+source = "git+https://github.com/B0ney/iced?branch=iced_blur_test#6dcdb26fbe879707ec9559ef14f8a07fef393b46"
 dependencies = [
  "iced_debug",
  "iced_program",
@@ -1744,6 +1745,16 @@ checksum = "071dfc062690e90b734c0b2273ce72ad0ffa95f0c74596bc250dcfd960262841"
 dependencies = [
  "autocfg",
  "libm",
+]
+
+[[package]]
+name = "num_cpus"
+version = "1.17.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "91df4bbde75afed763b708b7eee1e8e7651e02d97f6d5dd763e89367e957b23b"
+dependencies = [
+ "hermit-abi",
+ "libc",
 ]
 
 [[package]]
